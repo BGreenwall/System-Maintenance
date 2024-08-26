@@ -1,0 +1,23 @@
+# System Maintenance Script
+
+## Description
+This PowerShell script performs essential system maintenance tasks, including clearing temporary files, emptying the recycle bin, and generating a disk space usage report.
+
+## Usage
+1. Clone the repository:
+    ```powershell
+    git clone https://github.com/yourusername/SystemMaintenance.git
+    ```
+2. Modify the script:
+   - Edit the `$TempDirectories` and `$LogFile` variables to match your environment.
+3. Run the script:
+    ```powershell
+    .\SystemMaintenance.ps1
+    ```
+
+## Requirements
+- PowerShell 5.0 or higher
+- Administrator privileges to clear system-wide temporary files and empty the recycle bin.
+
+## Author
+[Braden G]
